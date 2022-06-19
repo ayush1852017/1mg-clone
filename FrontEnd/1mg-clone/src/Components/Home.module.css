@@ -1,0 +1,50 @@
+.homeMiddle {
+  background-color: #f1f3f9;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.homePoster {
+  padding: 0 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 150px;
+  justify-content: space-between;
+  /* padding-bottom: 1rem; */
+}
+.seeAllBtn {
+  background-color: #ff6f61 !important;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8rem !important;
+  padding: 0 10px !important;
+  height: 27px !important;
+  width: 62px !important;
+  margin-bottom: 10px;
+}
+
+.homeSliderRow {
+  height: 286px;
+  max-width: 100%;
+  padding: 2rem 20rem;
+  background-color: #fff;
+}
+.footerSection {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #e6e9f0;
+}
+.lastSectionText {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.homeSliderRowProduct {
+  max-height: 520px;
+  /* height: 216px; */
+  max-width: 100%;
+  padding: 2rem 20rem;
+  background-color: #fff;
+}

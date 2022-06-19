@@ -1,0 +1,5 @@
+.modalBody {
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "1mg-clone",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "axios": "^0.27.2",
+    "components": "^0.1.0",
+    "framer-motion": "^6",
+    "react": "^18.0.0",
+    "react-app-store-badge": "^1.0.2",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
+    "react-id-swiper": "^4.0.0",
+    "react-modal": "^3.15.1",
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-store-badges": "^1.5.1",
+    "react-swiper": "^0.1.5",
+    "react-table": "^7.8.0",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "swiper": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.9"
+  }
+}

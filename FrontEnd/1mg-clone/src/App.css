@@ -1,0 +1,9 @@
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #f1f3f9;
+}
+body {
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}

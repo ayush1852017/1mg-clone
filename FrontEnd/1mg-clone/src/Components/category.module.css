@@ -1,0 +1,20 @@
+.categoryBtn {
+  /* top: 10px; */
+  width: 100%;
+  position: absolute;
+  font-size: 20px;
+  bottom: 30px;
+  padding: 1rem;
+  height: max-content;
+  color: #fff;
+  background-color: rgba(3, 26, 35, 0.7) !important;
+}
+.categoryBtn > p {
+  white-space: pre-wrap;
+}
+.categoryBtn:hover {
+  background-color: #ff6f61 !important;
+}
+.categoryCard {
+  position: relative;
+}
