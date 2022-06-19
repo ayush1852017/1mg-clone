@@ -1,9 +1,11 @@
 import {
   Box,
   Button,
+  Checkbox,
   Container,
   Grid,
   GridItem,
+  Heading,
   List,
   ListItem,
   SimpleGrid,
@@ -82,7 +84,474 @@ export const Products = () => {
           templateColumns="repeat(5, 1fr)"
           gap={4}
         >
-          <GridItem rowSpan={10} colSpan={1} border={"1px solid black"} />
+          <GridItem rowSpan={10} colSpan={1}>
+            <Box borderWidth="1px" rounded="lg" shadow="lg" p={5}>
+              <Box>
+                <Heading as="h4" fontSize="1rem">
+                  CATEGORIES
+                </Heading>
+                <Text fontSize="1rem" pb={3}>
+                  FEATURED
+                </Text>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem fontSize={".7rem"}>Summer Essentials</ListItem>
+                  <ListItem fontSize={".7rem"}>Trending Now</ListItem>
+                  <ListItem fontSize={".7rem"}>
+                    New Arrivals On Tata 1MG
+                  </ListItem>
+                  <ListItem fontSize={".7rem"}>Buy More, Save More</ListItem>
+                  <ListItem fontSize={".7rem"}>Minimum 33% Off</ListItem>
+                  <ListItem fontSize={".7rem"}>Popular Combo Deals</ListItem>
+                  <ListItem fontSize={".7rem"}>Deals Of The Day</ListItem>
+                  <ListItem fontSize={".7rem"}>Top Brands</ListItem>
+                </List>
+              </Box>
+              <Heading as="h4" pt={5} fontSize="1rem">
+                FILTERS
+              </Heading>
+              <Box py={5}>
+                <Heading as="h4" pb={5} fontSize="1rem">
+                  BRANDS
+                </Heading>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Summer Essentials </Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Trending Now</Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>New Arrivals On Tata 1MG</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Buy More, Save More</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Minimum 33% Off</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Popular Combo Deals</Box>
+                    <Box>
+                      <Checkbox>3</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Deals Of The Day</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Top Brands</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                </List>
+              </Box>
+              <Box py={5}>
+                <Heading as="h4" py={5} fontSize="1rem">
+                  PRODUCT TAGS
+                </Heading>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Summer Essentials </Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Trending Now</Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>New Arrivals On Tata 1MG</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Buy More, Save More</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Minimum 33% Off</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Popular Combo Deals</Box>
+                    <Box>
+                      <Checkbox>3</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Deals Of The Day</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Top Brands</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                </List>
+              </Box>
+              <Box py={5}>
+                <Heading as="h4" py={5} fontSize="1rem">
+                  DISCOUNT
+                </Heading>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Summer Essentials </Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Trending Now</Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>New Arrivals On Tata 1MG</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Buy More, Save More</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Minimum 33% Off</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Popular Combo Deals</Box>
+                    <Box>
+                      <Checkbox>3</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Deals Of The Day</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Top Brands</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                </List>
+              </Box>
+              <Box py={5}>
+                <Heading as="h4" py={5} fontSize="1rem">
+                  PRODUCT FORM
+                </Heading>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Summer Essentials </Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Trending Now</Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>New Arrivals On Tata 1MG</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Buy More, Save More</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Minimum 33% Off</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Popular Combo Deals</Box>
+                    <Box>
+                      <Checkbox>3</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Deals Of The Day</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Top Brands</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                </List>
+              </Box>
+              <Box py={5}>
+                <Heading as="h4" py={5} fontSize="1rem">
+                  USES
+                </Heading>
+                <List>
+                  Tata 1mg Health Products
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Summer Essentials </Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Trending Now</Box>
+                    <Box>
+                      <Checkbox>1</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>New Arrivals On Tata 1MG</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Buy More, Save More</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Minimum 33% Off</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Popular Combo Deals</Box>
+                    <Box>
+                      <Checkbox>3</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Deals Of The Day</Box>
+                    <Box>
+                      <Checkbox>4</Checkbox>
+                    </Box>
+                  </ListItem>
+                  <ListItem
+                    fontSize={".7rem"}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                  >
+                    <Box>Top Brands</Box>
+                    <Box>
+                      <Checkbox>2</Checkbox>
+                    </Box>
+                  </ListItem>
+                </List>
+              </Box>
+            </Box>
+          </GridItem>
           {products?.map((d) => {
             return (
               <GridItem
